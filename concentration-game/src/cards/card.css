@@ -1,0 +1,49 @@
+/* empty card */
+.card {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Engravers" Old English BT, serif;
+  font-size: 36px;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+/* card face down */
+.card-back {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  background-size: 50px 50px;
+  background-image: linear-gradient(
+      45deg,
+      white 25%,
+      transparent 25%,
+      transparent 75%,
+      white 75%
+    ),
+    linear-gradient(
+      45deg,
+      white 25%,
+      transparent 25%,
+      transparent 75%,
+      white 75%
+    );
+  background-color: red;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transform: rotateY(180deg);
+  pointer-events: auto;
+}
+
+.notClick {
+  pointer-events: none;
+}

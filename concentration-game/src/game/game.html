@@ -1,0 +1,9 @@
+<div class="container">
+  <score-board #scoreBoard />
+  <card-board (changeGameState)="changeGameState($event)" />
+  <div class="footer">
+    <button *ngIf="isStartGame" id="new-game" (click)="startNewGame()">
+      NEW GAME
+    </button>
+  </div>
+</div>

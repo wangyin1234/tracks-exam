@@ -1,0 +1,9 @@
+<div
+  id="cell-{{card.id + 1}}"
+  [ngClass]="card.isFaceUp || !card.value ? 'card' : 'card-back'"
+  [class.notClick]="card.isFaceUp || card.isFlipping || !card.value"
+  (click)="flip()"
+  [@flipState]="flipState"
+>
+  {{card.isFaceUp ? card.value : ''}}
+</div>

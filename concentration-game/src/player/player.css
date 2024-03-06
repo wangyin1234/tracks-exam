@@ -1,0 +1,32 @@
+.col-player {
+  position: relative;
+  margin: 10px 50px 0 50px;
+}
+
+.col-player.highlight:before {
+  content: "";
+  background-color: #ffba10;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.col-player.highlight:after {
+  content: "";
+  background-color: #ffba10;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
+
+/* Score display styles */
+#player-1-score,
+#player-2-score {
+  font-size: 36px;
+  font-weight: bold;
+  height: 1em;
+}

@@ -1,0 +1,8 @@
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.col-side {
+  flex: 1;
+}

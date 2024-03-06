@@ -1,0 +1,14 @@
+/* Card styles */
+.cards-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}

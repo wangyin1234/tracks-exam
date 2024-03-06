@@ -1,0 +1,9 @@
+<div class="cards-cont">
+  <div class="cards">
+    <card
+      *ngFor="let card of cards; "
+      [card]="card"
+      (flipped)="flipped($event)"
+    ></card>
+  </div>
+</div>

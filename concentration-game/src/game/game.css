@@ -1,0 +1,36 @@
+/* Container for the game elements */
+.container {
+  text-align: center;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* Button styles */
+#new-game {
+  padding: 15px;
+  margin-top: 20px;
+  background: linear-gradient(to bottom, rgb(209, 198, 255), purple);
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  display: block;
+}
